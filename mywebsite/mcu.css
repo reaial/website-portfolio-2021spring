@@ -14,5 +14,17 @@ font-family: monospace;
 h3
 {
     font-style: oblique;
-    color: #788FCC;
+    color: #FF0000;
+}
+
+ol
+{
+  list-style-type: decimal;
+
+}
+strong
+{
+  font-size: 22 px;
+  font-style: bold;
+  font-family: sans-serif;
 }
