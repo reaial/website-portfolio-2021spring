@@ -5,12 +5,33 @@ body {
 
 }
 
-h1
-{
+h1{
   font-size: 2em;
+
+
+}
+h2{
+   font-size: 1.6em;
+
 }
 
-h2
-{
-   font-size: 1.6em;
+h1, h2{
+  font-family: "Helvetica ", Arial, sans-serif;
+  font-weight: normal;
+}
+
+ul{
+ list-style: circle;
+}
+
+ol{
+  list-style-type: lower-roman;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  text-align: left;
 }
