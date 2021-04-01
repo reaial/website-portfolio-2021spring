@@ -10,6 +10,7 @@ font-family: monospace;
 h2
 {
 font-family: monospace;
+
 }
 h3
 {
@@ -20,7 +21,7 @@ h3
 ol
 {
   list-style-type: decimal;
-  
+
 }
 
 strong
@@ -33,5 +34,43 @@ ul
 {
   font-family:sans-serif;
   font-style:bold;
+}
 
+h4
+{
+  padding: 0.6em;
+  color: #ffffff;
+  background-color:#207ED6;
+  border-style: solid;
+  border-color: #207ED6;
+  border-width: 1px;
+}
+h4:hover
+{
+color: #ffffff;
+text-shadow: 0.1em 0.1em 0.2em black;
+border-color: #000000;
+border-style: solid;
+border-color: #207ED6;
+border-width: 1px;
+}
+
+h4:active
+{
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  border-color: #000000;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+}
+
+h5
+{
+
+}
+
+h6
+{
+  font-size: 14px;
 }
