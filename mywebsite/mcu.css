@@ -17,6 +17,18 @@ h3
     font-style: oblique;
 
 }
+div
+{
+  color: #FFF;
+  background-color:#207ED6;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+
+}
 
 ol
 {
@@ -36,8 +48,7 @@ ul
   font-style:bold;
 }
 
-h4
-{
+/*{
   padding: 0.6em;
   color: #ffffff;
   background-color:#207ED6;
@@ -63,7 +74,7 @@ h4:active
   border-style: solid;
   border-color: #ffffff;
   border-width: 1px;
-}
+}*/
 
 h5
 {
