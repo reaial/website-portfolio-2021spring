@@ -1,7 +1,10 @@
 
-body
-{
-  background-color
+.Website Background_.jpg
+
+{  background-image: url("Website Background_.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 h1
 {
