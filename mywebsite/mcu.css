@@ -4,11 +4,13 @@ body{
 opacity: 20;*/
 background-color: #8f8f8f;
 
+
 }
 h1
 {
 font-family: monospace;
 color: #F5070B;
+text-align: center;
 }
 h2
 {
@@ -31,6 +33,8 @@ h3
   border: 2px solid #5D6063;
   border-radius: 5px;
   width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto;
 
 }*/
 
@@ -45,6 +49,8 @@ strong
   font-size: 16px;
   font-style: bold;
   font-family: sans-serif;
+  text-decoration: underline;
+  text-align: left;
 }
 ul
 {
@@ -88,3 +94,15 @@ h5
 color: #1D9300;
 font-size: 16px;
 }
+
+p
+{
+
+}
+
+/**
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}*/
