@@ -22,6 +22,44 @@ button{
   font-style: italic;
   background-color: #EEB75A;
 }
+.button:link
+.button:visted{
+  display: block;
+  text-decoration: none;
+
+  color: #FFF;
+  background-color: #5995DA;
+  font-style: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+
+}
+
+.button:hover,
+.button:visted:hover
+{
+  color:#FFF;
+  background-color: #5995DA;
+}
+
+.call-to-action:link,
+.call-to-action:visited
+{
+  font-style: italic;
+  background-color: #F5C58E;
+}
+
+.call-to-action:active,
+.call-to-action:visted:active
+{
+  background-color: #EEB75A;
+}
+
 
 page{
   width: 600px;
@@ -32,6 +70,26 @@ page{
   font-style: normal;
 }
 
-h1 em{
+a:link
+{
+color: blue;
+text-decoration: none;
+}
+a: visited
+{
+  color:purple;
+}
+a:hover
+{
+  color: aqua;
+  text-decoration: underline;
+}
+a:active
+{
+  color: red;
+}
 
+a:visted:active
+{
+  color: red;
 }
