@@ -26,7 +26,7 @@ header li{
   margin-left: 15px;
 }
 body::after{
-    content: "";
+  content: "";
   background: url('Website Background_.jpg');
   opacity: 0.5;
   top: 0;
@@ -59,28 +59,11 @@ h2
 {
 font-family: monospace;
 color: #F5070B;
-
 }
 h3
 {
     font-style: oblique;
-
 }
-/*div
-{
-  color: #FFF;
-  background-color:#207ED6;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
-  width: 200px;
-  box-sizing: border-box;
-  margin: 20px auto;
-
-}*/
-
 ol
 {
   list-style-type: decimal;
@@ -92,7 +75,6 @@ strong, h5
   font-size: 16px;
   font-style: bold;
   font-family: sans-serif;
-  text-decoration: underline;
   text-align: left;
 }
 ul
@@ -100,10 +82,9 @@ ul
   font-family:sans-serif;
   font-style: bold;
   color: #221EFF;
-  font-size: 18px;
+  font-size: 16px;
 
 }
-
 
 {
   padding: 0.6em;
@@ -151,4 +132,18 @@ margin-bottom: 1em;
 
 nav {
   position: fixed;
+  list-style: none;
+  font-weight: bold;
+
+}
+
+#extralinks {
+  fixed:left;
+  background-color:white;
+}
+
+footer{
+  background-color: red;
+  text-decoration-color: white;
+  font-style: oblique;
 }
